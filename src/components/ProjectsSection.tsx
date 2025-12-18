@@ -40,7 +40,7 @@ export function ProjectsSection() {
       <div className="mx-auto max-w-6xl px-4 lg:px-6">
         <div className="space-y-3">
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-brand-ash dark:text-brand-silver">Projetos</p>
-          <h2 className="font-heading text-3xl text-midnight dark:text-white sm:text-4xl">
+          <h2 className="font-heading text-2xl text-midnight dark:text-white sm:text-4xl">
             Projetos recentes que impulsionaram empresas.
           </h2>
           <p className="text-base text-brand-ash dark:text-brand-silver">

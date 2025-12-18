@@ -6,14 +6,14 @@ import { MagneticButton } from './MagneticButton'
 const stats = [
   { value: '+20', label: 'Projetos digitais' },
   { value: '+8', label: 'Setores atendidos' },
-  { value: '+300k R$', label: 'Em receita gerada' },
+  { value: '+300k', label: 'Gerados (R$)' },
 ]
 
 export function Hero() {
   return (
     <section id="hero" className="relative isolate overflow-visible pb-16 pt-12 sm:pt-20 lg:pt-24">
       <div className="mx-auto max-w-6xl px-4 lg:px-6">
-        <div className="space-y-6 text-midnight dark:text-white">
+        <div className="space-y-6 sm:space-y-6 text-midnight dark:text-white">
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="max-w-none font-heading text-4xl leading-tight text-midnight dark:text-white sm:text-5xl lg:text-6xl"
+            className="max-w-none font-heading text-3xl leading-tight text-midnight dark:text-white sm:text-5xl lg:text-6xl"
           >
             Criamos experiências que convertem tráfego em receita previsível.
           </motion.h1>
@@ -38,7 +38,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15 }}
-              className="text-lg text-brand-ash dark:text-brand-silver"
+              className="text-sm sm:text-lg text-brand-ash dark:text-brand-silver"
             >
               Combinamos experiência e interatividade com estratégias e métodos para transformar seus visitantes em clientes fiéis. Testes e aprimoramentos contínuos no setor de IA nos permitem entregar jornadas digitais em tempo recorde e que convertem melhor a cada entrega.
             </motion.p>

@@ -35,10 +35,10 @@ export function AboutSection() {
       <div className="mx-auto max-w-6xl px-4 lg:px-6">
         <div className="space-y-4">
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-brand-ash dark:text-brand-silver">Sobre nós</p>
-          <h2 className="font-heading text-3xl text-midnight dark:text-white sm:text-4xl">
+          <h2 className="font-heading text-2xl text-midnight dark:text-white sm:text-4xl">
             Desenvolvimento web orientado a crescimento e previsibilidade.
           </h2>
-          <p className="text-lg text-brand-ash dark:text-brand-silver">
+          <p className="text-base text-brand-ash dark:text-brand-silver">
             Ajudamos diversos setores empresariais a lançar experiências web únicas e otimizadas, integradas ao stack comercial. Com um time altamente treinado em IA e Desenvolvimento conseguimos entregar projetos complexos em tempo recorde.
           </p>
         </div>

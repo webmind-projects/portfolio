@@ -28,7 +28,7 @@ export function ServicesCards() {
   return (
     <section className="relative z-10 pb-8 pt-6 sm:pb-12 sm:pt-10">
       <div className="mx-auto max-w-6xl px-4 lg:px-6">
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-4 md:gap-6">
           {services.map((service, index) => (
             <motion.div
               key={service.title}

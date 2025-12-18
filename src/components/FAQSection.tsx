@@ -37,7 +37,7 @@ function FAQItemCard({
       </button>
       <div
         ref={contentRef}
-        className="overflow-hidden transition-all duration-500 ease-out"
+        className="overflow-hidden transition-all duration-300 ease-out"
         style={{ maxHeight, opacity: isOpen ? 1 : 0 }}
       >
         <div className="pt-4 text-sm leading-relaxed text-brand-ash dark:text-brand-silver">
@@ -68,7 +68,7 @@ export function FAQSection() {
           <p className="text-sm font-semibold uppercase tracking-[0.4em] text-brand-ash dark:text-brand-silver">
             Dúvidas Frequentes
           </p>
-          <h2 className="font-heading text-3xl text-midnight dark:text-white sm:text-4xl">
+          <h2 className="font-heading text-2xl text-midnight dark:text-white sm:text-4xl">
             Perguntas que respondemos todos os dias.
           </h2>
           <p className="text-base text-brand-ash dark:text-brand-silver">
