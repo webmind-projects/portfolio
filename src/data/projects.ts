@@ -51,7 +51,7 @@ export const projects: Project[] = [
     },
     mockup: desktopMagnaJurisFullpage,
     modalMockup: desktopMagnaJurisFullpage,
-    ctaUrl: 'https://portfolio.iwebmind.com/magnajuris/',
+    ctaUrl: 'https://webmind-projects.github.io/pf-advocacia-magnajuris',
   },
     {
       id: 'ecovolt-solutions',
@@ -75,7 +75,7 @@ export const projects: Project[] = [
       },
       mockup: desktopEcovoltFullpage,
       modalMockup: desktopEcovoltFullpage,
-      ctaUrl: 'https://portfolio.iwebmind.com/ecovolt/',
+      ctaUrl: 'https://webmind-projects.github.io/pf-energiasolar-ecovolt',
     },
   {
     id: 'barbearia-blend',
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     },
     mockup: desktopBlendFullpage,
     modalMockup: desktopBlendFullpage,
-    ctaUrl: 'https://portfolio.iwebmind.com/barbeariablend/',
+    ctaUrl: 'https://webmind-projects.github.io/pf-barbearia-bladeebourbon',
   },
   {
     id: 'sorriso-total',
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     },
     mockup: desktopSorrisoTotalFullpage,
     modalMockup: desktopSorrisoTotalFullpage,
-    ctaUrl: 'https://portfolio.iwebmind.com/sorrisototal/',
+    ctaUrl: 'https://webmind-projects.github.io/pf-odontologia-sorrisototal/',
   },
   {
     id: 'mente-plena',
@@ -146,7 +146,7 @@ export const projects: Project[] = [
     },
     mockup: desktopMentePlenaFullpage,
     modalMockup: desktopMentePlenaFullpage,
-    ctaUrl: 'https://portfolio.iwebmind.com/menteplena/',
+    ctaUrl: 'https://webmind-projects.github.io/pf-clinica-menteplena',
   },
 //  { 
 //    id: 'linq-learning',
